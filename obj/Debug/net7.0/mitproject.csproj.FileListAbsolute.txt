@@ -1,0 +1,15 @@
+D:\aProgrammingFile\C#\mitproject\bin\Debug\net7.0\mitproject.exe
+D:\aProgrammingFile\C#\mitproject\bin\Debug\net7.0\mitproject.deps.json
+D:\aProgrammingFile\C#\mitproject\bin\Debug\net7.0\mitproject.runtimeconfig.json
+D:\aProgrammingFile\C#\mitproject\bin\Debug\net7.0\mitproject.dll
+D:\aProgrammingFile\C#\mitproject\bin\Debug\net7.0\mitproject.pdb
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.csproj.AssemblyReference.cache
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.GeneratedMSBuildEditorConfig.editorconfig
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.AssemblyInfoInputs.cache
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.AssemblyInfo.cs
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.csproj.CoreCompileInputs.cache
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.dll
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\refint\mitproject.dll
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.pdb
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.genruntimeconfig.cache
+D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\ref\mitproject.dll
