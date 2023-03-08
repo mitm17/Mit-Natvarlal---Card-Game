@@ -18,7 +18,22 @@ namespace mitproject// Note: actual namespace depends on the project name.
             SetValue(Value); //both card value and card suit
             SetSuit(Suit);   //are set with validations
         }
+         public class Card //card class is defined
+    {
+        public Suit Suit { get; private set; }   //here are the properties for 
+        public Value Value { get; private set; } //suit and value of the card 
 
+        public Card(Suit suit, Value value) //the constructor creates a new Card
+        {                                   //with a specific suit and value
+            Suit = suit;
+            Value = value;
+        }
+
+        public override string ToString() //method-> coverting the card to a string
+        {
+            return string.Format("{0} of {1}", Value, Suit);
+        }
+    }
         // Properties
         public int GetValue()
         {
