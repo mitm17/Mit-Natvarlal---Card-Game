@@ -55,7 +55,7 @@ namespace mitproject
         public Pack() //contructor-> creating a new pack of cards
         {
             CardPack = new List<Card>();
-            //list of cards intialised
+                                        //list of cards intialised
             foreach (Suit s in Enum.GetValues(typeof(Suit))) //a new card with a combination
             {                                                //of suit and value is created
                 foreach (Value v in Enum.GetValues(typeof(Value))) 
@@ -68,19 +68,19 @@ public bool ShuffleCardPack(int TypeOfShuffle) //method to shuffle cards in a pa
 {
     switch (TypeOfShuffle)
     {
-        case 1: //if 1 is picked then it performs a RiffleShuffle
+        case 1:     //if 1 is picked then it performs a RiffleShuffle
             RiffleShuffle();
             break;
-        case 2: //if 2 is picked then it performs a FisherYatesShuffle
+        case 2:     //if 2 is picked then it performs a FisherYatesShuffle
             FisherYatesShuffle();
             break;
         default:
             throw new ArgumentException("shuffle type must be 1 or 2");
-    }       //if 3 is picked then it throws an ArgumentException
-    return true; // indicate that the shuffle was successful
+    }               //if 3 is picked then it throws an ArgumentException
+    return true;    // indicate that the shuffle was successful
 }
 
-        public Card deal() //method to deal a single card from top of deck
+        public Card deal()           //method to deal a single card from top of deck
         {
             if (CardPack.Count == 0) //if nothing left to deal throw the exception
             {
@@ -93,11 +93,11 @@ public bool ShuffleCardPack(int TypeOfShuffle) //method to shuffle cards in a pa
         }   //Take the top card from the deck, remove it from the list, and return it
 
         public List<Card> dealCard(int TotalAmount)
-        { //method to deal multiple cards from top of deck
+        {           //method to deal multiple cards from top of deck
             if (CardPack.Count < TotalAmount)
             {
                 throw new InvalidOperationException("Not enough cards left in the pack");
-            }      //throws a error message to show not enough cards in the deck
+            }       //throws a error message to show not enough cards in the deck
 
             List<Card> DealtCards = new List<Card>(); //deals specified number of cards
             for (int i = 0; i < TotalAmount; i++)     //and return them in the list
@@ -109,9 +109,9 @@ public bool ShuffleCardPack(int TypeOfShuffle) //method to shuffle cards in a pa
         }
 
         private void RiffleShuffle() //RiffleShuffle method
-        {   //deck is split into 2 halves
-            List<Card> LeftHalf = CardPack.Take(CardPack.Count / 2).ToList(); //list for 1 half
-            List<Card> RightHalf = CardPack.Skip(CardPack.Count / 2).ToList(); //list for 2 half
+        {                              //deck is split into 2 halves
+            List<Card> LeftHalf = CardPack.Take(CardPack.Count / 2).ToList();   //list for 1 half
+            List<Card> RightHalf = CardPack.Skip(CardPack.Count / 2).ToList();  //list for 2 half
 
             int LeftIndex = 0; //shuffle both halves while alternating
             int RightIndex = 0; //through them and updating the deck
