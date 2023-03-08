@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aProgrammingFile\\C#\\mitproject\\mitproject.csproj": {}
+    "M:\\uni work\\mitproject\\mitproject.csproj": {}
   },
   "projects": {
-    "D:\\aProgrammingFile\\C#\\mitproject\\mitproject.csproj": {
+    "M:\\uni work\\mitproject\\mitproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aProgrammingFile\\C#\\mitproject\\mitproject.csproj",
+        "projectUniqueName": "M:\\uni work\\mitproject\\mitproject.csproj",
         "projectName": "mitproject",
-        "projectPath": "D:\\aProgrammingFile\\C#\\mitproject\\mitproject.csproj",
-        "packagesPath": "C:\\Users\\pruth\\.nuget\\packages\\",
-        "outputPath": "D:\\aProgrammingFile\\C#\\mitproject\\obj\\",
+        "projectPath": "M:\\uni work\\mitproject\\mitproject.csproj",
+        "packagesPath": "C:\\Users\\mitna\\.nuget\\packages\\",
+        "outputPath": "M:\\uni work\\mitproject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pruth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mitna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -56,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

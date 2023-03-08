@@ -15,39 +15,39 @@ namespace mitproject// Note: actual namespace depends on the project name.
         // Constructor
         public CardType(int Value, int Suit)
         {
-            SetValue(Value);
-            SetSuit(Suit);
+            SetValue(Value); //both card value and card suit
+            SetSuit(Suit);   //are set with validations
         }
 
         // Properties
         public int GetValue()
         {
             return _value;
-        }
+        } //returns the card value
 
         public void SetValue(int Value)
         {
             if (Value < 1 || Value > 13)
                 throw new ArgumentException("The card value is wrong.");
-            _value = Value;
+            _value = Value; //card value is set
         }
 
         public int GetSuit()
         {
-            return _suit;
+            return _suit; //the card suit is returned
         }
 
         public void SetSuit(int Suit)
         {
             if (Suit < 1 || Suit > 4)
                 throw new ArgumentException("The card suit is wrong.");
-            _suit = Suit;
+            _suit = Suit; //card suit is set
         }
 
         // Methods
         public override string ToString()
         {
-            string CardValue;
+            string CardValue; //switch statement to handle card values
             switch (GetValue())
             {
                 case 1:
@@ -63,12 +63,12 @@ namespace mitproject// Note: actual namespace depends on the project name.
                     CardValue = "King";
                     break;
                 default:
-                    CardValue = GetValue().ToString();
-                    break;
+                    CardValue = GetValue().ToString(); //if the value is not 1, 11, 12 or 13
+                    break;                             //just use the numeric value
             }
 
             string CardSuit;
-            switch (GetSuit())
+            switch (GetSuit()) //switch statement to handle card suits
             {
                 case 1:
                     CardSuit = "Hearts";
@@ -83,11 +83,11 @@ namespace mitproject// Note: actual namespace depends on the project name.
                     CardSuit = "Spades";
                     break;
                 default:
-                    CardSuit = "";
-                    break;
+                    CardSuit = ""; //if the suit is not between 1-4
+                    break;         //just leave it blank
             }
 
             return CardValue + " of " + CardSuit;
-        }
+        }   //the card value and card suit are returned as a string
     }
 }

@@ -13,3 +13,18 @@ D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\refint\mitproject.dll
 D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.pdb
 D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\mitproject.genruntimeconfig.cache
 D:\aProgrammingFile\C#\mitproject\obj\Debug\net7.0\ref\mitproject.dll
+M:\uni work\mitproject\bin\Debug\net7.0\mitproject.exe
+M:\uni work\mitproject\bin\Debug\net7.0\mitproject.deps.json
+M:\uni work\mitproject\bin\Debug\net7.0\mitproject.runtimeconfig.json
+M:\uni work\mitproject\bin\Debug\net7.0\mitproject.dll
+M:\uni work\mitproject\bin\Debug\net7.0\mitproject.pdb
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.csproj.AssemblyReference.cache
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.GeneratedMSBuildEditorConfig.editorconfig
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.AssemblyInfoInputs.cache
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.AssemblyInfo.cs
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.csproj.CoreCompileInputs.cache
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.dll
+M:\uni work\mitproject\obj\Debug\net7.0\refint\mitproject.dll
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.pdb
+M:\uni work\mitproject\obj\Debug\net7.0\mitproject.genruntimeconfig.cache
+M:\uni work\mitproject\obj\Debug\net7.0\ref\mitproject.dll
